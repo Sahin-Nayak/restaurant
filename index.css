@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    display: flex;
+    padding: 0 10px;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(img/choose.jpg);
+    background-size: cover;
+    /* border: solid 3px #38d39f; */
+    
+}
+.wrapper{
+    /* background-image: url(img/khabar.jpg); */
+    min-width: 500px;
+    /* background: #fff; */
+    border-radius: 11px;
+    padding: 40px 25px 25px;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.272), -1px -1px 8px rgba(0,0,0,0.2);
+}
+.link_page{
+    height: 70px;
+    font-size: 33px;
+    text-decoration: none;
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 16px;
+    background-color: tomato;
+    border-radius: 90px;
+}
