@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forgot Password</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:600&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+	<section class="This is Nevigation Bar">
+        <nav class="navbar">
+            <div class="logo">Kolkata Kravings </div>
+        </nav>
+        </div>
+    </section>
+
+		<!--picture of the wave --> 
+	<img class="wave" src="img/wave.png">
+	<div class="container">
+			<!--picture of the boy --> 
+		<div class="img">
+			<img src="img/bg.svg">
+		</div>
+		<div class="login-content">
+			<form action="forgot.php" method="POST">
+				<!--picture of the pic --> 
+				<img src="img/avatar.svg">
+				<!--Auto write text-->
+				<h2 class="title" id="text1-container"></h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		<h5>User Id</h5>
+           		   		<input type="text" name="userId" id="email" class="input" required>
+           		   </div>
+           		</div>
+				   <div class="input-div one">
+                    <div class="i">
+						<i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                            <input type="text" name="OTP" id="input" value="what is your birth city name?" class="input" readonly>
+                    </div>
+                </div>
+                <div class="input-div one">
+                    <div class="i">
+						<i class="fas fa-lock"></i>
+                    </div>
+                    <div class="div">
+                            <h5>Enter Answer</h5>
+                            <input type="text" name="birth_city" id="input" class="input">
+                    </div>
+                </div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+           		   <div class="div">
+           		    	<h5>New Password</h5>
+           		    	<input type="password" name="Newpass" id="input" class="input" required>
+            	   </div>
+            	</div>
+            	<input type="submit" name="submit" class="btn" value="Change Password">
+            </form>
+        </div>
+    </div>
+    <script type="text/javascript" src="login.js"></script>
+</body>
+<style>
+		body{
+		overflow: hidden;
+	}
+    /* nav*/
+/* Navbar styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+    color: #fff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.272), -1px -1px 8px rgba(0,0,0,0.2);
+    position: sticky;
+    z-index: 1000;
+}    
+/* Logo */    
+.logo {    
+    font-size: 45px;
+    transition: 1.5s ease;
+}
+@media (max-width:415px){
+
+.logo{
+   font-size: 35px;
+}
+}
+@media (max-width:540px){
+
+.logo{
+   font-size: 30px;
+}
+}
+@media (max-width:380px){
+
+.logo{
+   font-size: 25px;
+}
+}
+</style>
+</html>
